@@ -1,6 +1,6 @@
 # Ex.No: 7  Logic Programming –  Logic Circuit Design
 ### DATE:                                                                            
-### REGISTER NUMBER : 
+### REGISTER NUMBER : 212222060261
 ### AIM: 
 To write a logic program to design a circuit like half adder and half subtractor.
 ###  Algorithm:
@@ -14,19 +14,41 @@ To write a logic program to design a circuit like half adder and half subtractor
 8. Stop the program.
 
 ### Program:
-
-
-
-
-
-
-
-
-
-
+```
+xor(0,1,1).
+xor(0,0,0).
+xor(1,0,1).
+xor(1,1,0).
+and(1,1,1).
+and(0,0,0).
+and(0,1,0).
+and(1,0,0).
+not(0,1).
+not(1,0).
+or(0,1,1).
+or(1,0,1).
+or(0,0,0).
+or(1,1,1).
+halfadder(A,B,Sum,Carry):-
+    xor(A,B,Sum),
+    and(A,B,Carry).
+halfsubtractor(A,B,Diff,Carry):-
+    xor(A,B,Diff),
+    not(A,C),
+    and(C,B,Carry).
+fulladder(A,B,Cin,S,Cout):-
+    xor(A,B,X),
+    xor(X,Cin,S),
+    and(X,Cin,Y),
+    and(A,B,Z),
+    or(Y,Z,Cout).
+```
 
 ### Output:
 
+![Screenshot 2024-09-23 185112](https://github.com/user-attachments/assets/409502ea-2556-4277-acc7-30555f0f9c82)
+![Screenshot 2024-09-23 185058](https://github.com/user-attachments/assets/9a0797d8-4667-4bec-a372-dd0d666cad05)
+![Screenshot 2024-09-23 185121](https://github.com/user-attachments/assets/a5877ab1-c7ea-478b-adda-ab792362f762)
 
 
 ### Result:
