@@ -82,13 +82,12 @@ Step 7: Stop the program.<br>
 ```
 
 ### Output/Plan:
-
-![Screenshot 2024-10-03 093314](https://github.com/user-attachments/assets/7b679378-fea1-40c3-b38b-6fa94d348b6f)
-![Screenshot 2024-10-03 093309](https://github.com/user-attachments/assets/e841ca9f-821f-4d30-a027-ef3ac7b71836)
-![Screenshot 2024-10-03 093302](https://github.com/user-attachments/assets/4cbe489e-1711-4995-86e7-085536dacb42)
-![Screenshot 2024-10-03 093254](https://github.com/user-attachments/assets/c3a4bf9e-e973-4b02-b816-1ef895692379)
-![Screenshot 2024-10-03 093245](https://github.com/user-attachments/assets/2ee868b6-bbe4-497b-9d66-7359a0eeb429)
-![Screenshot 2024-10-03 093321](https://github.com/user-attachments/assets/3eb6209a-2510-4921-9d5d-a6588291fec3)
+![Screenshot 2024-10-03 093245](https://github.com/user-attachments/assets/7a053d1d-d230-45c2-a9c2-29187de4cdf5)
+![Screenshot 2024-10-03 093254](https://github.com/user-attachments/assets/7306d7c3-f4a5-4d9d-b6f6-f21f33074304)
+![Screenshot 2024-10-03 093302](https://github.com/user-attachments/assets/9a512000-415b-4d8f-b4a9-63f9f6011d02)
+![Screenshot 2024-10-03 093309](https://github.com/user-attachments/assets/abb39de2-b70e-47c9-a782-b6dc77111259)
+![Screenshot 2024-10-03 093314](https://github.com/user-attachments/assets/feced719-c2d8-4c25-9291-6062b7142575)
+![Screenshot 2024-10-03 093321](https://github.com/user-attachments/assets/2ceaacb9-caef-401f-90f5-5534af08f487)
 
 
 ### Result:
