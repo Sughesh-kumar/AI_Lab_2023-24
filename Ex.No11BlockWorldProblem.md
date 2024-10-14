@@ -1,6 +1,6 @@
 # Ex.No: 11  Planning –  Block World Problem 
 ### DATE:                                                                            
-### REGISTER NUMBER : 
+### REGISTER NUMBER : 212222060261
 ### AIM: 
 To find the sequence of plan for Block word problem using PDDL  
 ###  Algorithm:
@@ -16,20 +16,48 @@ Step 9 : Define a problem for block world problem.<br>
 Step 10 : Obtain the plan for given problem.<br> 
      
 ### Program:
-
-
-
-
-
-
-
-
-
+```
+(define (domain blocksworld)
+(:requirements :strips :equality)
+(:predicates (clear ?x)
+             (on-table ?x)
+             (arm-empty)
+             (holding ?x)
+             (on ?x ?y))
+(:action pickup
+  :parameters (?ob)
+  :precondition (and (clear ?ob) (on-table ?ob) (arm-empty))
+  :effect (and (holding ?ob) (not (clear ?ob)) (not (on-table ?ob)) 
+               (not (arm-empty))))
+(:action putdown
+  :parameters  (?ob)
+  :precondition (and (holding ?ob))
+  :effect (and (clear ?ob) (arm-empty) (on-table ?ob) 
+               (not (holding ?ob))))
+(:action stack
+  :parameters  (?ob ?underob)
+  :precondition (and  (clear ?underob) (holding ?ob))
+  :effect (and (arm-empty) (clear ?ob) (on ?ob ?underob)
+               (not (clear ?underob)) (not (holding ?ob))))
+(:action unstack
+  :parameters (?ob ?underob)
+  :precondition (and (on ?ob ?underob) (clear ?ob) (arm-empty))
+  :effect (and (holding ?ob) (clear ?underob)
+               (not (on ?ob ?underob)) (not (clear ?ob)) (not (arm-empty)))))
+```
 ### Input 
+```
+     (define (problem pb1)
+   (:domain blocksworld)
+   (:objects a b)
+   (:init (on-table a) (on-table b)  (clear a)  (clear b) (arm-empty))
+   (:goal (and (on a b))))
+```
 
 ### Output/Plan:
 
-
+![Screenshot 2024-10-14 151342](https://github.com/user-attachments/assets/fd004b66-a458-462c-b272-c503d63bf30b)
+![Screenshot 2024-10-14 151357](https://github.com/user-attachments/assets/5ab8724e-2bee-4435-ba8b-7945861af663)
 
 ### Result:
 Thus the plan was found for the initial and goal state of block world problem.
