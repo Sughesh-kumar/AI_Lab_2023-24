@@ -1,4 +1,4 @@
-# Ex.No: 10  Logic Programming –  Simple queries from facts and rules
+# Ex.No:  Logic Programming –  Simple queries from facts and rules
 ### DATE:                                                                            
 ### REGISTER NUMBER : 
 ### AIM: 
