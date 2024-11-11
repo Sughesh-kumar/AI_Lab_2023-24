@@ -34,5 +34,6 @@ move(N,X,Y,Z) :-
 ![Screenshot 2024-09-23 164223](https://github.com/user-attachments/assets/c331c446-96b7-4eb6-9354-2dc817e2ce8b)
 
 
+
 ### Result:
 Thus the solution of Towers of Hanoi problem was found by logic programming.
