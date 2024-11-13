@@ -3,7 +3,6 @@
 ### REGISTER NUMBER : 212222060261
 ### AIM: To write a program to train the classifier for detecting fake news using machine learning techniques.
 
-To write a program to train the classifier for -----------------.
 ###  Algorithm:
 Data Collection:
 
@@ -115,7 +114,6 @@ iface = gr.Interface(fn=predict_fake_news,
 
 # Launch the interface
 iface.launch()
-
 ```
 
 ### Output:
