@@ -1,4 +1,4 @@
-# Ex.No: 10 Fake News Detector 
+# Ex.No: 13 Fake News Detector 
 ### DATE: 24/10/2024                                                                           
 ### REGISTER NUMBER : 212222060261
 ### AIM: To write a program to train the classifier for detecting fake news using machine learning techniques.
